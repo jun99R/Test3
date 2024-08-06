@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>ARS</title>
+  <meta name="title" content="ARS">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jfif">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light.png" width="150" height="24" alt="ARS home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="150" height="24" alt="ARS home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li>
+            <a href="#Home" class="navbar-link">Accuiel</a>
+          </li>
+          <li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+          <li>
+            <a href="#About" class="navbar-link">À Propos de Nous</a>
+          </li>
+          <li>
+            <a href="#Projects" class="navbar-link">Projets</a>
+          </li>
+          <li>
+            <a href="#Contact" class="navbar-link">Contact</a>
+          </li>
+          <!-- Dropdown for language selection -->
+          <li class="navbar-lang">
+            <a href="#" class="navbar-link">Languages</a>
+               <ul class="lang-dropdown">
+                    <li><a href="?lang=fr" class="lang-option"><span class="flag-icon">🇫🇷</span> Français</a></li>
+                    <li><a href="./Langue/english/english.html" class="lang-option"><span class="flag-icon">🇬🇧</span> English</a></li>
+                    <li><a href="./Langue/Mandarin/mandarin.html" class="lang-option"><span class="flag-icon">🇨🇳</span> 中文 (Mandarin)</a></li>
+              </ul>
+          </li>
+        </ul>
+        
+
+        <div class="wrapper">
+          <a href="mailto:rebiservices23@gmail.com" class="contact-link">rebiservices23@gmail.com</a>
+
+          <a href="tel:+243814312748" class="contact-link">+ (243) 81 43 12 748</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li-->
+
+        </ul>
+        
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="Home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/bg 2.jfif')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Agence Rebi Services S.A.R.L, Lubumbashi</h1>
+
+            <p class="hero-text">
+              2024  
+            </p>
+          </div>
+          <div class="hero-slider" data-slider>
+
+            <!--Off-->
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <!--figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jfif" width="575" height="550" alt="" class="img-cover">
+                  </figure-->
+
+                </li>
+
+              </ul>
+            </div-->
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+          <!--off end-->
+
+        </div>
+      </section>
+
+      <!--ars sujet-->
+
+      <section class="sujet" id="sujet">
+        <div class="content">
+            <div class="text">
+                <h2>QUI SOMMES-NOUS ?</h2>
+                <p>ARS S.A.R.L. est un prestataire de services multidisciplinaires de droit congolais évoluant dans le système OHADA, toujours prêt à relever 
+                  le défi pour réaliser le travail demandé par nos partenaires, en fournissant des biens et services de qualité, avec des matériels à jour, 
+                  dans le souci de répondre correctement aux besoins de nos différents partenaires, et ce de manière efficace et efficiente.</p>
+                <p>Nous sommes en partenariat avec plusieurs experts locaux et étrangers avec qui nous échangeons nos expériences et moyens, toujours à l’écoute 
+                  des exigences et des particularités du marché pour rendre le résultat du travail demandé par nos clients à la fois efficace et 
+                  efficient, répondant ainsi aux besoins de nos différents partenaires.</p>
+            </div>
+            <div class="image">
+                <img src="./assets/images/hero-slide-1.jfif" alt="Image de l'entreprise">
+            </div>
+        </div>
+    </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+      <section class="about" aria-labelledby="about-label" id="About">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">CE QUE NOUS FAISONS ?</p>
+
+            <h2 class="h2 section-title">
+             <!--Ajouter Texte-->
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">La gestion de la main d’œuvre</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nous faisons le recrutement et la formation du personnel selon le profil établi par nos partenaires. Nous fournissons 
+                    également des travailleurs journaliers et assurons la gestion quotidienne sur les sites
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Recrutement, Placement et Acquisition de talents</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nous vous fournissons des candidats qualifiés et adaptés au poste à pourvoir. 
+                    Nous avons accès à une base de données internationale et multi-sectorielle contenant une grande variété de profils.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Training</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nous proposons une large gamme de programmes de formation, d'expériences professionnelles et de renforcement 
+                    des compétences pour développer et améliorer les aptitudes de votre personnel.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Procurement</spna>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    En collaboration avec notre division d’approvisionnement sud-africaine, nous sommes 
+                    en mesure de fournir des machines, et des équipements tels que des équipements de lutte contre l’incendie
+                  </p>
+                </div>
+              </li>
+
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Placement du Personnel</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Nous veillons à ce que la capacité de production requise soit en place pour soutenir et harmoniser les activités des ressources humaines avec les objectifs 
+                    de votre entreprise. À travers notre approche 
+                    intégrale de recrutement, qui comprend les étapes de sourcing, de sélection et d'intégration, nous assurons une parfaite 
+                    adéquation entre vos besoins et les compétences des candidats.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Suivi et évaluation de projet</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Évaluer le progrès d'un projet par rapport aux objectifs définis en utilisant des critères prédéterminés, proposer des suggestions pour 
+                    affiner les actions futures, et adapter les plans en fonction des résultats obtenus pour maximiser l'efficacité et atteindre le succès 
+                    du projet.
+                  </p>
+
+                </div>
+              </li>
+
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Team Building et gestion d'événements</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Il s'agit d'un concept et d'une campagne développés spécifiquement pour vous et en collaboration avec vous, avec un objectif principal : 
+                    « créer ou renforcer la cohésion au sein de vos équipes et de votre personnel » à travers diverses activités telles 
+                    que des ateliers de collaboration, des événements de consolidation d'équipe et des initiatives de communication interne, pour encourager 
+                    un environnement de travail harmonieux et productif.
+                  </p>
+
+                </div>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 
+        - #FEATURE
+      -->
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Agence Rebi Services S.A.R.L</p>
+            <p class="section-text">
+              Grâce à notre service de placement de personnel, vous assurez à votre entreprise une tranquillité d'esprit en évitant les risques professionnels et juridiques. 
+              Nous nous engageons à fournir des candidats soigneusement sélectionnés et conformes 
+              aux exigences du poste, tout en respectant les réglementations applicables. 
+              Cela permet d'atténuer les risques associés au recrutement et de garantir une intégration harmonieuse des nouveaux employés au sein 
+              de votre organisation.
+            </p>
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Intégrité
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Transparence
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Honnêteté
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Engagement
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  Consistency
+                  <span class="span">
+                    
+                  </span>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- Pour le Carburant-->
+
+
+      <!-- 
+        - #FEATURE
+      -->
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/car.jpg" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Les carburants classiques, bio-carburant, GPL et GNV</p>
+            <p class="section-text">
+              Nous proposons des carburants classiques comme l’essence et le gasoil, ainsi que des bio-carburants, GPL, et GNV. Nos options incluent huile végétale, biodiesel, 
+              gaz et alcool, répondant aux besoins variés de nos clients avec des solutions énergétiques durables.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!--En pour le carburant-->
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label" id="Projects">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Services</p>
+
+          <h2 class="h2 section-title">
+            Découvrez nos Services.
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Services.jfif" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Équipement Minier Avancé</a>
+                  </h3>
+                  <p class="card-text">
+                    Nous gérons votre arrivée en RDC en vous aidant avec les formalités administratives et l’installation. Nous assurons 
+                    un suivi personnalisé pour garantir votre confort, offrant assistance et vérifications régulières pour résoudre toute difficulté et 
+                    rendre votre séjour agréable.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Construction</a>
+                  </h3>
+                  <p class="card-text">
+                    Nous proposons des services de construction complets, de la planification à la réalisation. 
+                    Notre équipe garantit des projets de qualité, dans les délais et budgets impartis, tout en respectant les normes les plus strictes, 
+                    qu’ils soient résidentiels, commerciaux ou industriels.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Maintenance.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">MAINTENANCE</a>
+                  </h3>
+                  <p class="card-text">
+                    Nous proposons des services de maintenance préventive et corrective pour assurer la performance optimale de vos équipements. 
+                    Notre équipe réactive garantit des interventions rapides et efficaces, minimisant les temps d'arrêt et prolongeant la durée de vie de vos 
+                    installations.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Des biens liés aux mines</a>
+                  </h3>
+                  <p class="card-text">
+                    Nous fournissons des machines et outils à la pointe de la technologie pour des opérations minières efficaces et sûres. 
+                    Notre équipement respecte les normes de l'industrie, garantissant des performances optimales et la sécurité sur les sites miniers.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Fourniture 1.jfif" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">FOURNITURES DES BIENS</a>
+                  </h3>
+                  <p class="card-text">
+                    Nous fournissons des produits pharmaceutiques, consommables et matériels médicaux, produits agro-alimentaires et 
+                    intrants agricoles. Nos solutions de qualité répondent aux besoins des secteurs de la santé et de l’agriculture.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/Net.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">NETTOYAGE & DESINFEFECTION </a>
+                  </h3>
+                  <p class="card-text">
+                    Nous réalisons l'assainissement des milieux en nettoyant les bureaux et les sections de travail, 
+                    tout en gérant les déchets des produits en transformation. Nous respectons les normes de sécurité et environnementales selon ISO 9001.
+                  </p>
+
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                      <span class="meta-text">Projet</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+      <section class="cta" aria-label="call to action" id="Contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Contactez-nous
+          </h2>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-light.png" width="74" height="24" alt="ARS home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 Agence Rebi Services. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <!--a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li-->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <!--li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li-->
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Notre Adresse Physique</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Bâtiment Administratif de l’Université de Lubumbashi,  
+            Route de Kasapa, Ville de Lubumbashi,  
+            Haut-Katanga / République Démocratique du Congo
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:rebiservices23@gmail.com" class="footer-link">rebiservices23@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+243814312748" class="footer-link">+ (243) 81 43 12 748 </a>
+        </li>
+
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Accuiel</p>
+        </li>
+        <li>
+          <a href="#Services" class="footer-link">Services</a>
+        </li>
+        <li>
+          <a href="#Solutions" class="footer-link">Nos solutions</a>
+        </li>
+        <li>
+          <a href="#About" class="navbar-link">À Propos de Nous</a>
+        </li>
+        <li>
+          <a href="#Projects" class="footer-link">Projets</a>
+        </li>
+      </ul>
+
+      <div class="footer-list">
+
+        <!--p class="h4 footer-list-title">Our Newsletter</p-->
+        <p class="footer-text">
+          Contactez-nous dès aujourd'hui pour en savoir plus sur la manière dont nous pouvons vous aider
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
